@@ -1,20 +1,28 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# eDoc AI Engine
 
-# Run and deploy your AI Studio app
+eDoc AI Engine is a React-based web application designed for intelligent document management. It leverages AI to categorize, explore, and manage documents efficiently.
 
-This contains everything you need to run your app locally.
+## Features
 
-View your app in AI Studio: https://ai.studio/apps/drive/1pg5Kkz89Cht4oD0_aYIhIuwPmbJh9GgV
+- **Document Upload**: Upload files for processing and preview.
+- **AI Categorization**: Automatically categorize documents using AI.
+- **Document Explorer**: Browse and search through documents.
+- **User Management**: Manage users and permissions.
+- **Audit Logs**: Track activities and changes.
+- **Dashboard**: Overview of system status and metrics.
 
-## Run Locally
+## Installation
 
-**Prerequisites:**  Node.js
+npm install
 
+## Development
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+npm run dev
+
+## Build
+
+npm run build
+
+## Preview
+
+npm run preview
